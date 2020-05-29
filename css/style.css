@@ -1,0 +1,114 @@
+/*****************************************
+***    General CSS
+*****************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*****************************************
+***    Body CSS
+*****************************************/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(../img/cover.jpg) rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+img {
+    width: 100px;
+    margin-top: -70px;
+}
+
+.signup-form {
+    width: 300px;
+    box-shadow: 3px 3px 3px 2px rgba(255, 25, 156, 0.9);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.signup-form h1 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+input.input-box {
+    height: 8px;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px sloid #999;
+    outline: none;
+}
+
+.agree {
+    margin: 5px 0;
+}
+
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signup-btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: #21afde;
+}
+
+.fb-sign-btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1c8adb;
+}
+
+hr {
+    margin-top: 20px !important;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.or {
+    background: #fff;
+    width: 30px;
+    margin: -12px auto 10px;
+}
+
+.btm-text {
+    margin: 5px 0;
+}
+
+
+/*****************************************
+***    End Main CSS
+*****************************************/
